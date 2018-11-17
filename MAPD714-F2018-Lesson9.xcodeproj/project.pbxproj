@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF16A847219F626A00C79D20 /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF16A846219F626A00C79D20 /* FontListViewController.swift */; };
+		FF16A849219F6CC900C79D20 /* FontSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF16A848219F6CC900C79D20 /* FontSizesViewController.swift */; };
+		FF16A84B219F742F00C79D20 /* FontInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF16A84A219F742F00C79D20 /* FontInfoViewController.swift */; };
 		FF374291219E48A4003C0C46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF374290219E48A4003C0C46 /* AppDelegate.swift */; };
-		FF374293219E48A4003C0C46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF374292219E48A4003C0C46 /* ViewController.swift */; };
 		FF374296219E48A4003C0C46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF374294219E48A4003C0C46 /* Main.storyboard */; };
 		FF374298219E48A5003C0C46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF374297219E48A5003C0C46 /* Assets.xcassets */; };
 		FF37429B219E48A5003C0C46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF374299219E48A5003C0C46 /* LaunchScreen.storyboard */; };
-		FF3742A5219E4DE5003C0C46 /* FavouritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3742A4219E4DE5003C0C46 /* FavouritesList.swift */; };
+		FF3742A5219E4DE5003C0C46 /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3742A4219E4DE5003C0C46 /* FavoritesList.swift */; };
+		FF3742A7219E639A003C0C46 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3742A6219E639A003C0C46 /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF16A846219F626A00C79D20 /* FontListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
+		FF16A848219F6CC900C79D20 /* FontSizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizesViewController.swift; sourceTree = "<group>"; };
+		FF16A84A219F742F00C79D20 /* FontInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontInfoViewController.swift; sourceTree = "<group>"; };
 		FF37428D219E48A4003C0C46 /* MAPD714-F2018-Lesson9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD714-F2018-Lesson9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF374290219E48A4003C0C46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF374292219E48A4003C0C46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF374295219E48A4003C0C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF374297219E48A5003C0C46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF37429A219E48A5003C0C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF37429C219E48A5003C0C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF3742A4219E4DE5003C0C46 /* FavouritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesList.swift; sourceTree = "<group>"; };
+		FF3742A4219E4DE5003C0C46 /* FavoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
+		FF3742A6219E639A003C0C46 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				FF374290219E48A4003C0C46 /* AppDelegate.swift */,
-				FF374292219E48A4003C0C46 /* ViewController.swift */,
 				FF374294219E48A4003C0C46 /* Main.storyboard */,
 				FF374297219E48A5003C0C46 /* Assets.xcassets */,
 				FF374299219E48A5003C0C46 /* LaunchScreen.storyboard */,
 				FF37429C219E48A5003C0C46 /* Info.plist */,
-				FF3742A4219E4DE5003C0C46 /* FavouritesList.swift */,
+				FF3742A4219E4DE5003C0C46 /* FavoritesList.swift */,
+				FF3742A6219E639A003C0C46 /* RootViewController.swift */,
+				FF16A846219F626A00C79D20 /* FontListViewController.swift */,
+				FF16A848219F6CC900C79D20 /* FontSizesViewController.swift */,
+				FF16A84A219F742F00C79D20 /* FontInfoViewController.swift */,
 			);
 			path = "MAPD714-F2018-Lesson9";
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF3742A5219E4DE5003C0C46 /* FavouritesList.swift in Sources */,
-				FF374293219E48A4003C0C46 /* ViewController.swift in Sources */,
+				FF16A849219F6CC900C79D20 /* FontSizesViewController.swift in Sources */,
+				FF3742A7219E639A003C0C46 /* RootViewController.swift in Sources */,
+				FF16A847219F626A00C79D20 /* FontListViewController.swift in Sources */,
+				FF16A84B219F742F00C79D20 /* FontInfoViewController.swift in Sources */,
+				FF3742A5219E4DE5003C0C46 /* FavoritesList.swift in Sources */,
 				FF374291219E48A4003C0C46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
